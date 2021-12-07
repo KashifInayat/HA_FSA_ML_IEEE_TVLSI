@@ -1,0 +1,85 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'top_sa_2D' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : qor
+Design : top_sa_2D
+Version: Q-2019.12-SP5-5
+Date   : Mon May  3 14:15:43 2021
+****************************************
+
+
+  Timing Path Group 'CLK'
+  -----------------------------------
+  Levels of Logic:              17.00
+  Critical Path Length:          2.06
+  Critical Path Slack:          -0.01
+  Critical Path Clk Period:      2.14
+  Total Negative Slack:         -5.88
+  No. of Violating Paths:      768.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:        321
+  Hierarchical Port Count:      18850
+  Leaf Cell Count:              41031
+  Buf/Inv Cell Count:            6909
+  Buf Cell Count:                 448
+  Inv Cell Count:                6461
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:     34389
+  Sequential Cell Count:         6642
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:    97227.108105
+  Noncombinational Area: 43892.195074
+  Buf/Inv Area:           9453.902735
+  Total Buffer Area:           910.85
+  Total Inverter Area:        8543.05
+  Macro/Black Box Area:      0.000000
+  Net Area:              31394.489219
+  -----------------------------------
+  Cell Area:            141119.303179
+  Design Area:          172513.792398
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:         44503
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: saturn
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.42
+  Logic Optimization:                  8.68
+  Mapping Optimization:               24.04
+  -----------------------------------------
+  Overall Compile Time:               85.52
+  Overall Compile Wall Clock Time:    85.86
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.01  TNS: 5.88  Number of Violating Paths: 768
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

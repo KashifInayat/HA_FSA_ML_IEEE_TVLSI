@@ -1,0 +1,417 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : top_sa_2D
+Version: Q-2019.12-SP5-5
+Date   : Fri Apr 30 12:17:05 2021
+****************************************
+
+
+   max_delay/setup ('CLK' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   core/temp_io_out_c_5_0_reg[58]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[46]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[49]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[42]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[41]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[59]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[60]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[61]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[62]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[63]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[54]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[48]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[51]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[43]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[45]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[47]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[50]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[52]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[53]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[55]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[56]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[57]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[56]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[61]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[43]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[51]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[45]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[57]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[42]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_1_0_reg[59]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_1_0_reg[63]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_6_0_reg[45]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_6_0_reg[60]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_6_0_reg[61]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[50]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[52]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[53]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[55]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[56]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[57]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[48]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[51]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[54]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[59]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[60]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[61]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[62]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[63]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[58]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[44]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[46]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[49]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_1_0_reg[44]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[58]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[44]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[46]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[49]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[42]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[41]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[59]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[60]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[61]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[62]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[54]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[48]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[51]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[56]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[57]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[43]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[45]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[50]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[52]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[53]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[55]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[41]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_6_0_reg[59]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[43]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_3_0_reg[47]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[47]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_6_0_reg[63]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_5_0_reg[40]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_6_0_reg[62]/D
+                                2.07           2.08 f        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[58]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[48]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[53]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[62]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[55]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[59]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_0_0_reg[63]/D
+                                2.05           2.06 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[58]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[44]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[46]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[49]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[41]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[59]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[60]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[61]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[62]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[63]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[48]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[51]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[43]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[45]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[47]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[50]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[52]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[53]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[55]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[56]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_7_0_reg[57]/D
+                                2.05           2.05 r        -0.01  (VIOLATED)
+   core/temp_io_out_c_2_0_reg[27]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[29]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[31]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[33]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[37]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[39]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[35]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[34]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[36]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[38]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[28]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[25]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[32]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[26]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_2_0_reg[30]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[57]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[59]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[61]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[44]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[47]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[50]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[52]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[53]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[55]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[56]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[57]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[45]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[48]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[51]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[54]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[60]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[61]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[62]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[58]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[46]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[49]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[27]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[29]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[31]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[33]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[37]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[39]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[35]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[34]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[36]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[38]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[28]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[25]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[32]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[30]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[42]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[41]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_1_0_reg[43]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[58]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[44]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[48]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[56]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[57]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[43]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[50]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[53]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[55]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[41]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_3_0_reg[42]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_3_0_reg[45]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[51]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[47]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[46]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[52]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[47]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[54]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[49]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[55]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[56]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[58]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_4_0_reg[62]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_0_0_reg[60]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[49]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[54]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[52]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_7_0_reg[42]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_7_0_reg[54]/D
+                                2.07           2.08 f         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[46]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[42]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+   core/temp_io_out_c_6_0_reg[41]/D
+                                2.05           2.05 r         0.00  (VIOLATED: increase significant digits)
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   top_sa_2D                    0.00       7646464512.00  -7646464512.00
+                                                                    (VIOLATED)
+
+
+1

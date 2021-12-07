@@ -1,0 +1,428 @@
+ 
+****************************************
+Report : area
+Design : Mesh
+Version: Q-2019.12-SP5-5
+Date   : Mon May  3 14:22:11 2021
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /soc/vlsi/PDK/SAED32_EDK_01132015/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+
+Number of ports:                        18850
+Number of nets:                         58737
+Number of cells:                        41119
+Number of combinational cells:          34389
+Number of sequential cells:              6209
+Number of macros/black boxes:               0
+Number of buf/inv:                       6909
+Number of references:                      75
+
+Combinational area:              97227.108105
+Buf/Inv area:                     9453.902735
+Noncombinational area:           41031.041828
+Macro/Black Box area:                0.000000
+Net Interconnect area:           29571.637686
+
+Total cell area:                138258.149933
+Total area:                     167829.787619
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area             Local cell area
+                                  --------------------  ------------------------------ 
+Hierarchical cell                 Absolute     Percent  Combi-      Noncombi-   Black-
+                                  Total        Total    national    national    boxes   Design
+--------------------------------  -----------  -------  ----------  ----------  ------  ----------------------------
+Mesh                              138258.1499    100.0    335.2159  19983.8516  0.0000  Mesh
+clk_gate__T_100_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_42
+clk_gate__T_101_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_41
+clk_gate__T_104_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_40
+clk_gate__T_105_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_39
+clk_gate__T_106_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_38
+clk_gate__T_107_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_37
+clk_gate__T_108_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_36
+clk_gate__T_109_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_35
+clk_gate__T_110_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_34
+clk_gate__T_111_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_33
+clk_gate__T_114_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_32
+clk_gate__T_115_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_31
+clk_gate__T_116_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_30
+clk_gate__T_117_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_29
+clk_gate__T_118_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_28
+clk_gate__T_119_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_27
+clk_gate__T_120_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_26
+clk_gate__T_121_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_25
+clk_gate__T_124_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_24
+clk_gate__T_125_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_23
+clk_gate__T_126_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_22
+clk_gate__T_127_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_21
+clk_gate__T_128_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_20
+clk_gate__T_129_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_19
+clk_gate__T_130_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_18
+clk_gate__T_131_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_17
+clk_gate__T_134_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_16
+clk_gate__T_135_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_15
+clk_gate__T_136_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_14
+clk_gate__T_137_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_13
+clk_gate__T_138_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_12
+clk_gate__T_139_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_11
+clk_gate__T_140_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_10
+clk_gate__T_141_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_9
+clk_gate__T_144_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_8
+clk_gate__T_145_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_7
+clk_gate__T_146_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_6
+clk_gate__T_147_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_5
+clk_gate__T_148_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_4
+clk_gate__T_149_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_3
+clk_gate__T_150_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_2
+clk_gate__T_151_0_reg                  5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_1
+clk_gate__T_74_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_0
+clk_gate__T_75_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_63
+clk_gate__T_76_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_62
+clk_gate__T_77_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_61
+clk_gate__T_78_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_60
+clk_gate__T_79_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_59
+clk_gate__T_80_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_58
+clk_gate__T_81_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_57
+clk_gate__T_84_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_56
+clk_gate__T_85_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_55
+clk_gate__T_86_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_54
+clk_gate__T_87_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_53
+clk_gate__T_88_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_52
+clk_gate__T_89_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_51
+clk_gate__T_90_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_50
+clk_gate__T_91_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_49
+clk_gate__T_94_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_48
+clk_gate__T_95_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_47
+clk_gate__T_96_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_46
+clk_gate__T_97_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_45
+clk_gate__T_98_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_44
+clk_gate__T_99_0_reg                   5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_Mesh_43
+mesh_0_0                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_0_0/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_0_0/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_0_0/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_0_1                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_0_1/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_0_1/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_0_1/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_0_2                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_0_2/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_0_2/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_0_2/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_0_3                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_0_3/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_0_3/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_0_3/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_0_4                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_0_4/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_0_4/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_0_4/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_0_5                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_0_5/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_0_5/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_0_5/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_0_6                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_0_6/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_0_6/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_0_6/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_0_7                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_0_7/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_0_7/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_0_7/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_1_0                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_1_0/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_1_0/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_1_0/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_1_1                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_1_1/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_1_1/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_1_1/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_1_2                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_1_2/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_1_2/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_1_2/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_1_3                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_1_3/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_1_3/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_1_3/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_1_4                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_1_4/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_1_4/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_1_4/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_1_5                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_1_5/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_1_5/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_1_5/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_1_6                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_1_6/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_1_6/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_1_6/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_1_7                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_1_7/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_1_7/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_1_7/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_2_0                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_2_0/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_2_0/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_2_0/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_2_1                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_2_1/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_2_1/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_2_1/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_2_2                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_2_2/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_2_2/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_2_2/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_2_3                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_2_3/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_2_3/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_2_3/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_2_4                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_2_4/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_2_4/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_2_4/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_2_5                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_2_5/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_2_5/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_2_5/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_2_6                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_2_6/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_2_6/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_2_6/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_2_7                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_2_7/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_2_7/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_2_7/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_3_0                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_3_0/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_3_0/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_3_0/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_3_1                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_3_1/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_3_1/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_3_1/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_3_2                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_3_2/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_3_2/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_3_2/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_3_3                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_3_3/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_3_3/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_3_3/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_3_4                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_3_4/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_3_4/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_3_4/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_3_5                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_3_5/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_3_5/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_3_5/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_3_6                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_3_6/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_3_6/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_3_6/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_3_7                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_3_7/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_3_7/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_3_7/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_4_0                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_4_0/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_4_0/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_4_0/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_4_1                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_4_1/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_4_1/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_4_1/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_4_2                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_4_2/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_4_2/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_4_2/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_4_3                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_4_3/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_4_3/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_4_3/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_4_4                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_4_4/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_4_4/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_4_4/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_4_5                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_4_5/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_4_5/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_4_5/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_4_6                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_4_6/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_4_6/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_4_6/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_4_7                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_4_7/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_4_7/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_4_7/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_5_0                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_5_0/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_5_0/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_5_0/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_5_1                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_5_1/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_5_1/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_5_1/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_5_2                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_5_2/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_5_2/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_5_2/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_5_3                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_5_3/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_5_3/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_5_3/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_5_4                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_5_4/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_5_4/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_5_4/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_5_5                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_5_5/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_5_5/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_5_5/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_5_6                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_5_6/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_5_6/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_5_6/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_5_7                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_5_7/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_5_7/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_5_7/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_6_0                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_6_0/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_6_0/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_6_0/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_6_1                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_6_1/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_6_1/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_6_1/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_6_2                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_6_2/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_6_2/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_6_2/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_6_3                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_6_3/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_6_3/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_6_3/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_6_4                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_6_4/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_6_4/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_6_4/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_6_5                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_6_5/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_6_5/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_6_5/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_6_6                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_6_6/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_6_6/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_6_6/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_6_7                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_6_7/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_6_7/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_6_7/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_7_0                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_7_0/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_7_0/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_7_0/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_7_1                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_7_1/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_7_1/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_7_1/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_7_2                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_7_2/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_7_2/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_7_2/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_7_3                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_7_3/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_7_3/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_7_3/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_7_4                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_7_4/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_7_4/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_7_4/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_7_5                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_7_5/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_7_5/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_7_5/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_7_6                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_7_6/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_7_6/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_7_6/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+mesh_7_7                            1836.9528      1.3      0.0000      0.0000  0.0000  Tile
+mesh_7_7/tile_0_0                   1836.9528      1.3    742.8629    317.1717  0.0000  PE_64
+mesh_7_7/tile_0_0/MULTuut            771.0729      0.6    771.0729      0.0000  0.0000  r4_mb8
+mesh_7_7/tile_0_0/clk_gate_c1_s_reg
+                                       5.8453      0.0      0.0000      5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+--------------------------------  -----------  -------  ----------  ----------  ------  ----------------------------
+Total                                                   97227.1081  41031.0418  0.0000
+
+1

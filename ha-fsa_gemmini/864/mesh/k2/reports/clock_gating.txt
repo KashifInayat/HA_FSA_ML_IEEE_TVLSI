@@ -1,0 +1,24 @@
+ 
+****************************************
+Report : clock_gating
+Design : top_sa_2D
+Version: Q-2019.12-SP5-5
+Date   : Mon Sep  6 14:39:52 2021
+****************************************
+
+
+
+                             Clock Gating Summary
+          ------------------------------------------------------------
+          |    Number of Clock gating elements    |      128         |
+          |                                       |                  |
+          |    Number of Gated registers          | 25680 (94.05%)   |
+          |                                       |                  |
+          |    Number of Ungated registers        |  1626 (5.95%)    |
+          |                                       |                  |
+          |    Total number of registers          |    27306         |
+          ------------------------------------------------------------
+
+
+
+1

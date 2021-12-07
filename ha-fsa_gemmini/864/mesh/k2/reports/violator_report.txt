@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : top_sa_2D
+Version: Q-2019.12-SP5-5
+Date   : Mon Sep  6 14:39:50 2021
+****************************************
+
+
+   max_delay/setup ('CLK' group)
+
+                             Required        Actual
+   Endpoint                 Path Delay     Path Delay        Slack
+   -----------------------------------------------------------------
+   core/temp_io_out_c_5_0_reg[62]/D
+                                1.78           1.78 r         0.00  (VIOLATED: increase significant digits)
+
+
+   max_capacitance
+
+                             Required        Actual
+   Net                      Capacitance    Capacitance       Slack
+   -----------------------------------------------------------------
+   core/n5614                  16.00          16.21          -0.21  (VIOLATED)
+   core/n5615                  16.00          16.21          -0.21  (VIOLATED)
+   core/n5616                  16.00          16.21          -0.21  (VIOLATED)
+   core/n5617                  16.00          16.21          -0.21  (VIOLATED)
+   core/n5618                  16.00          16.21          -0.21  (VIOLATED)
+   core/n5619                  16.00          16.21          -0.21  (VIOLATED)
+   core/n5620                  16.00          16.21          -0.21  (VIOLATED)
+   core/n5621                  16.00          16.21          -0.21  (VIOLATED)
+
+   -----------------------------------------------------------------
+   Total                      8                  -1.69  
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   top_sa_2D                    0.00       8202691584.00  -8202691584.00
+                                                                    (VIOLATED)
+
+
+1

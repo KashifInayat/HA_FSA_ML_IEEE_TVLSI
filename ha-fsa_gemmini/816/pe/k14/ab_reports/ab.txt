@@ -1,0 +1,46 @@
+ 
+****************************************
+Report : area
+Design : PE_64
+Version: Q-2019.12-SP5-5
+Date   : Fri Apr 30 16:41:20 2021
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    saed32hvt_ss0p95v125c (File: /soc/vlsi/PDK/SAED32_EDK_01132015/lib/stdcell_hvt/db_nldm/saed32hvt_ss0p95v125c.db)
+
+Number of ports:                          167
+Number of nets:                           700
+Number of cells:                          588
+Number of combinational cells:            534
+Number of sequential cells:                49
+Number of macros/black boxes:               0
+Number of buf/inv:                        105
+Number of references:                      27
+
+Combinational area:               1513.935815
+Buf/Inv area:                      143.591361
+Noncombinational area:             323.017035
+Macro/Black Box area:                0.000000
+Net Interconnect area:             321.891447
+
+Total cell area:                  1836.952850
+Total area:                       2158.844296
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  ---------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-     Noncombi-  Black-
+                                  Total      Total    national   national   boxes   Design
+--------------------------------  ---------  -------  ---------  ---------  ------  --------------------------
+PE_64                             1836.9528    100.0   742.8629   317.1717  0.0000  PE_64
+MULTuut                            771.0729     42.0   771.0729     0.0000  0.0000  r4_mb8
+clk_gate_c1_s_reg                    5.8453      0.3     0.0000     5.8453  0.0000  SNPS_CLOCK_GATE_HIGH_PE_64
+--------------------------------  ---------  -------  ---------  ---------  ------  --------------------------
+Total                                                 1513.9358   323.0170  0.0000
+
+1
