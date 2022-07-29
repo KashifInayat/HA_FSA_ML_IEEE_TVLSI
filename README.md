@@ -40,8 +40,15 @@ Use the following commands to get the corresponding tool:
 
 
 ## Citation:
-If you find HA-FSA useful in your research, please consider citing:
+If you find FSA useful in your research, please consider citing:
 ```
+@article{inayat2022hybrid,
+  title={Hybrid Accumulator Factored Systolic Array for Machine Learning Acceleration},
+  author={Inayat, Kashif and Chung, Jaeyong},
+  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems},
+  year={2022},
+  publisher={IEEE}
+}
 ```
 
 ## Contributing:
