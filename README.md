@@ -4,16 +4,6 @@ This repo contains the verilog code of signed 8-bit multiplier and 8x8 Gemmini a
 
 - Hybrid Accumulator Factored Systolic Array for Machine Learning Acceleration (https://ieeexplore.ieee.org/abstract/document/9773321/)
 
-PEs of each design, its clearly visible that the gates are dominant in systolic array types of structures:
-
-![image](https://user-images.githubusercontent.com/26200848/203887340-fa73e941-0fa9-4c10-ad91-7a2028dfc6ce.png)  ![image](https://user-images.githubusercontent.com/26200848/203887351-d8443696-8457-4ac8-a43e-45bbf3f9b012.png)
-
-
-![image](https://user-images.githubusercontent.com/26200848/203887362-32ab0d50-369a-417f-ab05-7786d4c64a93.png) ![image](https://user-images.githubusercontent.com/26200848/203887373-c6814efa-04b5-4efc-90fe-258540c7e5c2.png)
-
-![image](https://user-images.githubusercontent.com/26200848/203887381-3833ca26-78f0-4780-b278-0d5e1da722f2.png)  ![image](https://user-images.githubusercontent.com/26200848/203887392-bbf1ac9e-d2d1-4e43-ab1b-f0e9c290a492.png)
-
-
 ## Prerequisites:
 To use these files, you must have synopsys tools:  VCS, DC, PrimeTime PX, PrimePower
 
