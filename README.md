@@ -1,6 +1,6 @@
 # HA-FSA
 
-This repo contains the verilog code of signed 8-bit multiplier and 8x8 Gemmini accelerator with 16,32 and 64 bit accmulator with TCL and Shell files of synopsys tools. This work is under review at TVLSI:
+This repo contains the verilog code of signed 8-bit multiplier and 8x8 Gemmini accelerator with 16,32 and 64 bit accmulator with TCL and Shell files of synopsys tools. This work is published at TVLSI:
 
 - Hybrid Accumulator Factored Systolic Array for Machine Learning Acceleration (https://ieeexplore.ieee.org/abstract/document/9773321/)
 
